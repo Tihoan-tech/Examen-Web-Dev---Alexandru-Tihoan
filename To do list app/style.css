@@ -1,0 +1,71 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#cc5500
+}
+h1 {
+    
+    margin: 20px;
+    font-size: 170px;
+}
+
+#app {
+    max-width: 400px;
+    margin: 0 auto; /*centers text */
+}
+
+#taskInput {
+    width: 70%;
+    margin-bottom: 10px;
+    
+}
+
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+    
+}
+
+button.delete-btn {
+    background-color: #ff6262;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+button.delete-btn:hover {
+    background-color: #ff4040;
+}
+
+#addTaskBtn {
+
+    background-color: #9e62ff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+#addTaskBtn:hover {
+    background-color: rgb(94, 14, 160);
+}
+
+body {
+
+     
+        background-image: url(bkd\ 2.jpg);
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+    
+}
+
+li {
+
+    margin-top: 20px;
+}
